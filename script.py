@@ -151,7 +151,6 @@ class GoL(object):
 
         fill = 'black'
         if invert:
-            print(self.cells[x][y])
             fill = 'black' if self.cells[x][y] else 'white'
         self.c.create_rectangle(
             x * self.CELL_SIDE,
